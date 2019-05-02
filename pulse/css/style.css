@@ -13,6 +13,10 @@
 	font-family: 'HelveticaNeueLTPro';
 	src: url("../fonts/HelveticaNeueLTPro-Md.woff");
 }
+@font-face {
+	font-family: 'Cinzel';
+	src: url('https://fonts.googleapis.com/css?family=Cinzel');
+}
 
 html,
 body {
@@ -38,6 +42,7 @@ h1 {
 
 h2 {
 	font-size: 36px;
+	font-family: 'Cinzel', serif;
 }
 
 h3 {
@@ -541,7 +546,7 @@ ol {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 60px;
 }
 
 .hs-content .hsc-warp {
@@ -558,6 +563,7 @@ ol {
 	-webkit-transform: scale(0.7);
 	-ms-transform: scale(0.7);
 	transform: scale(0.7);
+	font-family: 'Cinzel', serif;
 }
 
 .hs-content h2 span {
@@ -566,12 +572,13 @@ ol {
 
 .hs-content p {
 	color: #fff;
+	margin-top: 10px;
 	margin-bottom: 0;
 	text-align: right;
 	line-height: normal;
 	padding-right: 7px;
 	position: relative;
-	top: 50px;
+	top: 60px;
 	opacity: 0;
 	-webkit-transform: scale(0.8);
 	-ms-transform: scale(0.8);
